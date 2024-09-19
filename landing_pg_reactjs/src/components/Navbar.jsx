@@ -20,9 +20,9 @@ const Navbar = () => {
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12"> 
             {navItems.map((item, index) =>(
-              <li key={index}>
-                <a href={item.href}>{item.label}</a>
-              </li>
+              
+                <a href={item.href}><li key={index}>{item.label}</li></a>
+              
             ))}</ul>
              <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a href="#" className="py-2 px-3 border rounded-md">
